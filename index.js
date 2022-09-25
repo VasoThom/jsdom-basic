@@ -6,7 +6,7 @@ clickButtonEL.style.backgroundColor = "red";
 messageEl.innerHTML = "This is <b>Javascript</b>";
 clickButtonEL.addEventListener("click", () => {
   clickButtonEL.style.backgroundColor = "blue";
-  console.log("butoon we clicked");
+  console.log("button we clicked");
   messageEl.innerHTML =
     "This is <b>JAVASCRIPT</b> and i changed it with ONE click";
   messageEl.style.color = "yellow";
@@ -20,6 +20,8 @@ buttonanswerEl.style.color = "white";
 
 buttonanswerEl.addEventListener("click", () => {
   //answerEl.style.display = "block";
+  console.log("button 2we clicked");
+
   answerEl.classList.toggle("hidden");
   answerEl.style.color = "green";
 });
